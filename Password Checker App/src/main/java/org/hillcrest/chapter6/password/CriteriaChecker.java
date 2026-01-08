@@ -18,6 +18,23 @@ public class CriteriaChecker {
            count ++;
         }
 
+        return count;
     }
+
+    public static String determineStrength(int score) {
+        String strength;
+        if(score <= 2) {
+            strength = "weak";
+        }
+        if(score == 3){
+            strength = "moderate";
+        }
+        if(score <= 5 || score >= 4){
+            strength = "strong";
+        }
+        return strength;
+
+    }
+
 
 }
