@@ -22,7 +22,7 @@ public class CriteriaChecker {
     }
 
     public static String determineStrength(int score) {
-        String strength;
+        String strength = "";
         if(score <= 2) {
             strength = "weak";
         }
