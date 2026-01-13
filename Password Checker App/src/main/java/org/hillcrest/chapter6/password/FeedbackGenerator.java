@@ -34,7 +34,7 @@ public class FeedbackGenerator {
             feedBack += "Add at least one uppercase letter.\n";
         }
         if(!hasASpecialCharacter){
-            feedBack += "Include as least one special character.\n";
+            feedBack += "Include at least one special character.\n";
         }
         if(hasALowerCase){
             feedBack += "Add at least one lowercase letter.\n";
