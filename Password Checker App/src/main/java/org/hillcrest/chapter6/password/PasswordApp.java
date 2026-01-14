@@ -2,6 +2,9 @@ package org.hillcrest.chapter6.password;
 
 import java.util.Scanner;
 
+/**
+ * The setting up for how you can enter the passcode
+ */
 public class PasswordApp {
     //main method goes here
     //prompt user for password
