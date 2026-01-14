@@ -54,7 +54,7 @@ public class CriteriaChecker {
     public static String determineStrength(int count) {
 
         if(count <= 2) {
-            return "weak";
+            return "Weak";
         } else if (count == 3){
             return "Moderate";
         } else{

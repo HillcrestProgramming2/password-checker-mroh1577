@@ -14,12 +14,12 @@ public class CriteriaCheckerTest {
 
     @Test
     public void testingAMediumLevelPasscode(){
-        Assertions.assertEquals(3, CriteriaChecker.evaluateCriteria("happiness123"));
+        Assertions.assertEquals(3, CriteriaChecker.evaluateCriteria("passcode123"));
     }
 
     @Test
     public void testingAGoodPasscode(){
-        Assertions.assertEquals(5, CriteriaChecker.evaluateCriteria("helloWorld@123"));
+        Assertions.assertEquals(5, CriteriaChecker.evaluateCriteria("Strong@1234"));
     }
 
     @Test
